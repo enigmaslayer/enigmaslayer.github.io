@@ -11,10 +11,10 @@ categories:
 description: Oracle Cloud Free Tier Setting
 article_tag1: Oracle Cloud
 article_section: Structure
-meta_keywords: 알고리즘, 분할 정복, 쿼드 트리 뒤집기
+meta_keywords: Oracle Cloud Free Tier, Oracle Cloud Free Tier Setting
 last_modified_at: '2021-03-18 09:34:00 +08000'
 toc: true
 toc_sticky: true
-toc_label: 목차
+toc_label: Content
 ---
 # 1. Create Account
