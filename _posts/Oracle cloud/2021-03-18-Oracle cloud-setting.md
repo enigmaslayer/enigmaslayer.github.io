@@ -79,10 +79,36 @@ toc_label: Content
 ![OCI_09](\assets\images\post\oracle_cloud\oci_009.png){: .align-center .open-new}
  - Specify a custom boot volume size
  - "Oracle Cloud Free Tier" provide 2 machines(Instances) and total 100GB storage size
- 
+<br/>
  
 ## 2.2. Instance Setting
 
 ### 2.2.1. Check Instance Status
 ![OCI_10](\assets\images\post\oracle_cloud\oci_010.png){: .align-center .open-new}
  - Wait for Provisioning status to Running status a few minutes
+<br/>
+ 
+### 2.2.2. Firewall Rules
+
+ - Click Virtual Cloud Network
+![OCI_12](\assets\images\post\oracle_cloud\oci_012.png){: .align-center .open-new}
+<br/>
+
+ - Click Subnet
+![OCI_13](\assets\images\post\oracle_cloud\oci_013.png){: .align-center .open-new}
+<br/>
+
+ - Click Security Lists
+![OCI_14](\assets\images\post\oracle_cloud\oci_014.png){: .align-center .open-new}
+<br/>
+
+ - Click Add Ingress Rules
+ <br/>
+ -- In initial state, only ssh port(22) is allowed.
+![OCI_15](\assets\images\post\oracle_cloud\oci_015.png){: .align-center .open-new}
+<br/>
+
+ - Add Specific Ingress Rule
+![OCI_16](\assets\images\post\oracle_cloud\oci_016.png){: .align-center .open-new}
+ 
+<br/>
