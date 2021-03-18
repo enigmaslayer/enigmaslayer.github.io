@@ -8,3 +8,7 @@
     .open-new {
         cursor: pointer;
     }
+	
+	.page {
+		width: calc(100% - #{$right-sidebar-width-narrow});
+	}
