@@ -18,6 +18,38 @@ toc_sticky: true
 toc_label: Content
 ---
 
+# Oracle Cloud Free Tier 
+ - It is always free cloud services for free
+ ![Oracle_Cloud_Free_Tier_01](\assets\images\post\oracle_cloud\oracle_cloud_free_tier.png){: .align-center .open-new}
+ 
+ 
+
+## What are Always Free cloud services ?
+
+### 1. Infrastructure
+ - 2 Compute virtual machines with 1/8 OCPU (1GB memory each)
+ - 2 Block Volumes Storage (total 100GB)
+ - 10 GB Object Storage
+ - 10 GB Archive Storage
+ - Resource Manager
+
+### 2. Databases
+ - Your choice of Oracle Autonomous Transaction Processing or Oracle Autonomous Data Warehouse
+ - Two databases total, each with 1 OCPU and 20 GB storage.
+ 
+### 3. Management
+ - Monitoring: 500 million ingestion datapoints, 1 billion retrieval datapoints.
+ - Notifications: 1 million sent through https per month, 1000 sent through email per month.
+ - Service Connector Hub: 2 service connectors.
+ 
+### 4. Additional Services
+ - Load Balancer : 1 instance, 10 Mbps
+ - Outbound Data Transfer : 10TB per Month
+
+## Oracle Cloud Advantage over Amazon Web Services
+![Oracle_Cloud_Free_Tier_ADV](\assets\images\post\oracle_cloud\oci_advantage_01.png){: .align-center .open-new}
+
+<br/><br/>
 # 1. Create Account
 
 ## 1.1 Homepage
@@ -73,6 +105,8 @@ toc_label: Content
  - Generate a public/private key pair
  - Save public key
  - Save private key
+ - It is recommended to Set up "Key passphrase"
+ 
 <br/>
  
 ### 2.1.6. Boot volume
@@ -110,5 +144,27 @@ toc_label: Content
 
  - Add Specific Ingress Rule
 ![OCI_16](\assets\images\post\oracle_cloud\oci_016.png){: .align-center .open-new}
- 
 <br/>
+
+## 2.3. Connect to OCI Instance
+ - Connect to OCI Instance by SSH client (
+ [PuTTy]({{ "https://www.putty.org/" }}){:target="_blank"}, 
+ [Xshell]({{ "https://www.netsarang.com/en/" }}){:target="_blank"}, 
+ [MobaXterm]({{ "https://mobaxterm.mobatek.net/" }}){:target="_blank"} etc..)
+ 
+### 2.3.1 PuTTy
+ - PuTTy Configuration
+ 
+ ![putty_setting_01](\assets\images\post\oracle_cloud\putty_setting_01.png){: .align-center .open-new}
+
+ ![putty_setting_02](\assets\images\post\oracle_cloud\putty_setting_02.png){: .align-center .open-new}
+
+
+ - Click "Open"
+ 
+ ![SSH_connection_01](\assets\images\post\oracle_cloud\ssh_connection_01.png){: .align-center .open-new}
+
+ - Please login as the user "ubuntu" rather than the user "root".
+ 
+ ![SSH_connection_02](\assets\images\post\oracle_cloud\ssh_connection_02.png){: .align-center .open-new}
+
