@@ -22,7 +22,6 @@ toc_label: Content
  - It is always free cloud services for free
  ![Oracle_Cloud_Free_Tier_01](\assets\images\post\oracle_cloud\oracle_cloud_free_tier.png){: .align-center .open-new}
  
- 
 
 ## What are Always Free cloud services ?
 
@@ -60,8 +59,8 @@ toc_label: Content
 <br/><br/>
 
 # 2. Oracle Cloud Infrastructure(OCI) Setting
- - [Oracle] [OCI Getting Started (Official)]({{ "https://docs.oracle.com/en-us/iaas/pdf/gsg/OCI_Getting_Started.pdf" }}){:target="_blank"}
-
+ - [Oracle] [OCI Getting Started]({{ "https://docs.oracle.com/en-us/iaas/pdf/gsg/OCI_Getting_Started.pdf" }}){:target="_blank"}
+ - [Oracle] [Setting Up Oracle Cloud Infrastructure (OCI)]({{ "https://docs.oracle.com/en/cloud/paas/casb-cloud/palug/setting-oracle-cloud-infrastructure-oci.html" }}){:target="_blank"} 
 ## 2.1. Create Instance
 
  - Menu -> Compute -> Instances
