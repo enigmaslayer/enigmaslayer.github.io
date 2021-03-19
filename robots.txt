@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://enigmaslayer.github.io/sitemap.xml
