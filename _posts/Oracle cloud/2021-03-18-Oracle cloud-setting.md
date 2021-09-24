@@ -8,6 +8,7 @@ share: true
 categories:
 - Oracle Cloud
 tags:
+- Oracle Cloud Infrastructure
 - Oracle Cloud Free Tier
 - Oracle Cloud Free Tier Setting
 description: Oracle Cloud Free Tier
