@@ -5,7 +5,6 @@ author_profile: true
 read_time: true
 comments: true
 share: true
-related: true
 categories:
 - Oracle Cloud
 description: Oracle Cloud Free Tier
@@ -21,7 +20,7 @@ toc_label: Content
 # Oracle Cloud Free Tier 
  - It is always free cloud services for free
  ![Oracle_Cloud_Free_Tier_01](\assets\images\post\oracle_cloud\oracle_cloud_free_tier.png){: .align-center .open-new}
- 
+
 
 ## What are Always Free cloud services ?
 
@@ -35,12 +34,12 @@ toc_label: Content
 ### 2. Databases
  - Your choice of Oracle Autonomous Transaction Processing or Oracle Autonomous Data Warehouse
  - Two databases total, each with 1 OCPU and 20 GB storage.
- 
+
 ### 3. Management
  - Monitoring: 500 million ingestion datapoints, 1 billion retrieval datapoints.
  - Notifications: 1 million sent through https per month, 1000 sent through email per month.
  - Service Connector Hub: 2 service connectors.
- 
+
 ### 4. Additional Services
  - Load Balancer : 1 instance, 10 Mbps
  - Outbound Data Transfer : 10TB per Month
@@ -68,7 +67,7 @@ toc_label: Content
 
 ![OCI_01](\assets\images\post\oracle_cloud\oci_001.png){: .align-center .open-new}
 <br/>
- 
+
 ### 2.1.1. Select "Create Instance" menu
 ![OCI_02](\assets\images\post\oracle_cloud\oci_002.png){: .align-center .open-new}
 <br/>
@@ -77,12 +76,12 @@ toc_label: Content
 ![OCI_04](\assets\images\post\oracle_cloud\oci_004.png){: .align-center .open-new}
  - Change Image
 <br/>
- 
+
 ### 2.1.3. Select platform image
 ![OCI_05](\assets\images\post\oracle_cloud\oci_005.png){: .align-center .open-new}
  - Select Image
 <br/>
- 
+
 ### 2.1.4. Networking
 ![OCI_07](\assets\images\post\oracle_cloud\oci_007.png){: .align-center .open-new}
  - Create new virtual cloud network
@@ -97,7 +96,7 @@ toc_label: Content
 #### 2.1.5.1. Download PuTTy Key Generator
 [https://www.putty.org/]({{ "https://www.putty.org/" }}){:target="_blank"}
  - Download puttygen.exe
- 
+
 #### 2.1.5.2. Generate and Save SHH key
 ![SSH_KEY_GENERATOR_01](\assets\images\post\oracle_cloud\ssh_key_setting_01.png){: .align-center .open-new}
 
@@ -105,22 +104,22 @@ toc_label: Content
  - Save public key
  - Save private key
  - It is recommended to Set up "Key passphrase"
- 
+
 <br/>
- 
+
 ### 2.1.6. Boot volume
 ![OCI_09](\assets\images\post\oracle_cloud\oci_009.png){: .align-center .open-new}
  - Specify a custom boot volume size
  - "Oracle Cloud Free Tier" provide 2 machines(Instances) and total 100GB storage size
 <br/>
- 
+
 ## 2.2. Instance Setting
 
 ### 2.2.1. Check Instance Status
 ![OCI_10](\assets\images\post\oracle_cloud\oci_010.png){: .align-center .open-new}
  - Wait for Provisioning status to Running status a few minutes
 <br/>
- 
+
 ### 2.2.2. Firewall Rules
 
  - Click Virtual Cloud Network
@@ -137,9 +136,9 @@ toc_label: Content
 
  - Click Add Ingress Rules
  <br/>
- -- In initial state, only ssh port(22) is allowed.
-![OCI_15](\assets\images\post\oracle_cloud\oci_015.png){: .align-center .open-new}
-<br/>
+    -- In initial state, only ssh port(22) is allowed.
+    ![OCI_15](\assets\images\post\oracle_cloud\oci_015.png){: .align-center .open-new}
+    <br/>
 
  - Add Specific Ingress Rule
 ![OCI_16](\assets\images\post\oracle_cloud\oci_016.png){: .align-center .open-new}
@@ -148,22 +147,22 @@ toc_label: Content
 ## 2.3. Connect to OCI Instance
  - Connect to OCI Instance by SSH client (
  [PuTTy]({{ "https://www.putty.org/" }}){:target="_blank"}, 
- [Xshell]({{ "https://www.netsarang.com/en/" }}){:target="_blank"}, 
- [MobaXterm]({{ "https://mobaxterm.mobatek.net/" }}){:target="_blank"} etc..)
- 
+    [Xshell]({{ "https://www.netsarang.com/en/" }}){:target="_blank"}, 
+    [MobaXterm]({{ "https://mobaxterm.mobatek.net/" }}){:target="_blank"} etc..)
+
 ### 2.3.1 PuTTy
  - PuTTy Configuration
- 
+
  ![putty_setting_01](\assets\images\post\oracle_cloud\putty_setting_01.png){: .align-center .open-new}
 
  ![putty_setting_02](\assets\images\post\oracle_cloud\putty_setting_02.png){: .align-center .open-new}
 
 
  - Click "Open"
- 
+
  ![SSH_connection_01](\assets\images\post\oracle_cloud\ssh_connection_01.png){: .align-center .open-new}
 
  - Please login as the user "ubuntu" rather than the user "root".
- 
+
  ![SSH_connection_02](\assets\images\post\oracle_cloud\ssh_connection_02.png){: .align-center .open-new}
 
