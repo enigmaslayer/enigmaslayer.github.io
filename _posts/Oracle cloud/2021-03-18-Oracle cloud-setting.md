@@ -7,6 +7,9 @@ comments: true
 share: true
 categories:
 - Oracle Cloud
+tags:
+- Oracle Cloud Free Tier
+- Oracle Cloud Free Tier Setting
 description: Oracle Cloud Free Tier
 article_tag1: Oracle Cloud
 article_section: Structure
