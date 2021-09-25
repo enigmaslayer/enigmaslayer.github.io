@@ -22,10 +22,6 @@ toc_label: Content
 
 
 
-# Github(Jekyll)에서 Google Analytics 사용하기
-
-
-
 ## 1. Google Analytics란?
 
 [구글 애널리틱스(Google Analytics)](https://analytics.google.com/)는 웹사이트 트래픽을 측정 및 수집하고 분석을 해주는 무료 서비스입니다.

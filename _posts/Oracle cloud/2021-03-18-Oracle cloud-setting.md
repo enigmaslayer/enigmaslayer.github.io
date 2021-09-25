@@ -21,14 +21,17 @@ toc_sticky: true
 toc_label: Content
 ---
 
-# Oracle Cloud Free Tier 
- - It is always free cloud services for free
- ![Oracle_Cloud_Free_Tier_01](\assets\images\post\oracle_cloud\oracle_cloud_free_tier.png){: .align-center .open-new}
+
 
 
 ## What are Always Free cloud services ?
 
+- It is always free cloud services for free
+  ![Oracle_Cloud_Free_Tier_01](\assets\images\post\oracle_cloud\oracle_cloud_free_tier.png){: .align-center .open-new}
+  
+
 ### 1. Infrastructure
+
  - 2 Compute virtual machines with 1/8 OCPU (1GB memory each)
  - 2 Block Volumes Storage (total 100GB)
  - 10 GB Object Storage
