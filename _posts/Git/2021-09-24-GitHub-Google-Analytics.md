@@ -38,7 +38,7 @@ toc_label: Content
 
 
 
-Google Ananlytics 가입 및 설정이 완료 된 분들은 [4. Github  설정](#4.-github-설정) 부분만 보시면 됩니다.
+Google Analytics 가입 및 설정이 완료 된 분들은 [4. Github  설정](#4.-github-설정) 부분만 보시면 됩니다.
 
 
 
@@ -173,7 +173,6 @@ _config.yml 수정
 - provider 항목에 "google-gtag" 추가
 
 - tracking_id 항목에 측정 ID 추가
-
 
 [commit 090131d](https://github.com/enigmaslayer/enigmaslayer.github.io/commit/090131d698b1897dfd38b60131ba6bb2ff9382bf?branch=090131d698b1897dfd38b60131ba6bb2ff9382bf&diff=split) 참조
 
