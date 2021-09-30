@@ -3,7 +3,6 @@ title: Oracle Cloud Free Tier
 layout: single
 author_profile: true
 read_time: true
-comments: true
 share: true
 
 categories:
