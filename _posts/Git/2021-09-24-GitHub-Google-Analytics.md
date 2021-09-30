@@ -9,7 +9,9 @@ categories:
 - Git
 
 tags:
-- [Github, Jekyll, Google Analytics]
+- Github
+- Jekyll
+- Google Analytics
 
 date: 2021-09-24
 last_modified_at: '2021-09-24 21:46:00 +08000'
