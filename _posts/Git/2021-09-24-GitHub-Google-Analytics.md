@@ -2,6 +2,7 @@
 title: Github (Jekyll)에서 Google Analytics 사용하기
 layout: single
 author_profile: true
+comments: true
 share: true
 
 categories:
