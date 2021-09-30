@@ -17,15 +17,7 @@ last_modified_at: '2021-09-24 21:46:00 +08000'
 toc: true
 toc_sticky: true
 toc_label: Content
-
-header:
-  teaser: \assets\images\post\github\google_analytics.png
-
 ---
-
-
-
-
 
 ## 1. Google Analytics란?
 
