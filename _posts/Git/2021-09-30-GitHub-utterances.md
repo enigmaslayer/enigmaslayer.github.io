@@ -117,6 +117,23 @@ Github 블로그를 사용하는 대부분의 사용자들은 댓글만을 관�
 >    
 >
 
+## 2.2 utterances.json
+
+> 댓글 작성 시 utterances가 설치 안된다는 메시지가 발생하였는데, 해당 파일을 추가해서 해결 된 건지 아니면 다른 설정이 미흡했던건지 체크가 안됬습니다.
+>
+> 혹시나 안되면 utterances.json 파일을 github 최상단에 생성 후 사용 할 Github 경로를 기재하여 올려주세요.
+>
+> ```json
+> // utterances.json
+> {
+>   "origins": ["https://enigmaslayer.github.io/"]
+> }
+> ```
+>
+> 
+
+
+
 
 
 # 3. 테스트
